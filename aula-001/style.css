@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;/*Deixamos todo o texto em arial*/
+}
+body{
+    background-image: linear-gradient(to right,#4432E3 ,#4360FA,#4060FA)/*criamos nosso degrade*/
+}
+main{
+    background-color: white;/*Deixamos o fundo de nossa main branco*/
+    width: 600px;/*Deixamos a largura ajustada a nosso gosto*/
+    padding: 10px;/*Engordamos nossa main*/
+    box-shadow: 5px 5px 10px #1510479f;/*Criamos um sombra sendo lateral,baixo,espalhamento*/
+    margin: auto;/*Deixamos nossa main ajustar automaticamente para o centro*/
+    border-radius: 10px;/*Deixamos nosso main com as bordas redondinhas*/
+}
+h1{
+    text-align: center;
+    color: #4360FA;
+    text-shadow: 1px,1px,2px #1510479f;
+}
+h2{
+    text-align: center;
+    color: #4060FA;
+}
+p{
+    text-align: justify;
+}
+
+
